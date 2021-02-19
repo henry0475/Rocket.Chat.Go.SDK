@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/Jeffail/gabs"
-	"github.com/RocketChat/Rocket.Chat.Go.SDK/models"
+	"github.com/henry0475/Rocket.Chat.Go.SDK/models"
 )
 
 // GetPublicSettings gets public settings

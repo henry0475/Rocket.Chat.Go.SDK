@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/RocketChat/Rocket.Chat.Go.SDK/models"
+	"github.com/henry0475/Rocket.Chat.Go.SDK/models"
 )
 
 type logoutResponse struct {
