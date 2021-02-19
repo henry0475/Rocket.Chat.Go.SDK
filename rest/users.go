@@ -88,11 +88,6 @@ func (c *Client) CreateToken(userID, username string) (*models.UserCredentials, 
 	return credentials, nil
 }
 
-// SetCredentials updates the current client of credentials
-func (c *Client) SetCredentials(userID, token string) {
-	c.auth = &authInfo{id: userID, token: token}
-}
-
 // Logout a user. The function returns the response message of the server.
 //
 // https://rocket.chat/docs/developer-guides/rest-api/authentication/logout
